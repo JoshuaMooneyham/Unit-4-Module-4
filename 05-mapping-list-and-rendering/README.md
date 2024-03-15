@@ -1,35 +1,70 @@
-# Exercise 5: Mapping Through A List And Rendering
+# Getting Started with Create React App
 
-To get comfortable with React, you must learn declarative programming.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-React is declarative. So you need to think in "declarative programming" whenever you work with React, and this exercise is perfect for that. This is the "opposite" of imperative programming which is the paradigm used in Vanilla JavaScript.
+## Available Scripts
 
-In this exercise, instead of manually and "imperatively" coding the render of each item in a list, use the map function to "declare" how React should render the list.
+In the project directory, you can run:
 
-Given an array:
+### `npm start`
 
-['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Use the map function to render them in an unordered list:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-dog
-cat
-chicken
-cow
-horse
-Once you learn the concept of rendering declaratively, you'll see how much life becomes easier (overstatement).
+### `npm test`
 
-But think of it this way...
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Our example list is not that big, but imagine if the list contains thousands of items, which is true when working with real-life data and real-world applications. You wouldn't want to manually code each <li> one thousand times, right?
+### `npm run build`
 
-And what if the data changes? This is the case when working with data in production environment. You'll have to change the code again.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-But not when you rendered the list declaratively. When the data changes, and you rendered your data presentation declaratively, a.k.a. the smart way, then your declarative code does the change for you.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**_ Helpful Links _**
-Declarative programming vs. imperative programming: https://learn.co/lessons/react-declarative-programming
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-map() function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+### `npm run eject`
 
-rendering lists in React: https://reactjs.org/docs/lists-and-keys.html
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

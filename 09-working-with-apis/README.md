@@ -1,40 +1,70 @@
-# Exercise 9: Working with an API
+# Getting Started with Create React App
 
-Last but definitely not the least, work with an API and build a simple frontend.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Every React or any frontend developer must learn how to work with an API. When building applications, you receive data from the backend or an outside source which you will have to present nicely in the UI.
+## Available Scripts
 
-Fetch from this API endpoint: https://random-data-api.com/api/users/random_user?size=10
+In the project directory, you can run:
 
-This will return ten random users.
+### `npm start`
 
-Here we'll put together everything we did from the previous examples:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Show each user's basic info in a card.
-When a card is hovered upon, the card flips to show more information about the user.
-There should also be a button that when clicked, will fetch another set of 10 random users, which updates the cards.
-Here are the steps for this exercise:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Fetch the data from the URL. You also have to handle converting the JSON response into a JavaScript object in this process. (See Response.json() resource link below)
-Store it in React state.
-Render the data based on the state.
-Take note that most APIs return data in the form of JSON. Good thing we already covered JSON in the previous exercise 😄
+### `npm test`
 
-Hints:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Do the fetching inside a useEffect React hook
-Create a custom component for the card, which accepts a user JSON object. Map through the data returned from the API and render each one using the custom component.
+### `npm run build`
 
-**_ Helpful Links _**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-What is an API? : https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-How to use Fetch API: https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Response.json() function: https://developer.mozilla.org/en-US/docs/Web/API/Response/json
+### `npm run eject`
 
-React useEffect hook: https://reactjs.org/docs/hooks-effect.html
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-We'll also be needing a lot more CSS, especially for the card hover effect:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Card flip effect: https://www.w3schools.com/howto/howto_css_flip_card.asp
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

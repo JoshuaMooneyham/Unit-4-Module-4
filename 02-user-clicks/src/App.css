@@ -1,0 +1,17 @@
+html {
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  width: 500px;
+  height: 150px;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 3em;
+}
